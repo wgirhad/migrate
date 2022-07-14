@@ -1,0 +1,22 @@
+{
+    "name": "wgirhad/migrate",
+    "description": "Raw SQL migrations. Easy as it should be.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^1.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wgirhad\\Migrate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Willian Girhad",
+            "email": "willianmonts@gmail.com"
+        }
+    ],
+    "require": {}
+}
